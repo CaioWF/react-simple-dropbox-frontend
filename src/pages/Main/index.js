@@ -21,7 +21,7 @@ function Main({ history }) {
   return (
     <MainContainer>
       <Form onSubmit={handleSubmit}>
-        <img src={logo} alt="" />
+        <img src={logo} alt="RocketBox" />
         <FormInput
           placeholder="Criar um box"
           value={boxName}
